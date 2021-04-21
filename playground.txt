@@ -1,0 +1,5 @@
+=IF(
+ISBLANK('INPUT DATA'!T5),
+"",
+1
+)

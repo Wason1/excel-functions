@@ -1,5 +1,5 @@
 =IF(
-    C17="",
+    ISBLANK(C16),
     "",
-    UPPER(CONCATENATE("WHS",C17))
+    UPPER("WHS"&C16))
 )
