@@ -1,0 +1,6 @@
+=IF(
+    ISBLANK(C3),
+    "",
+    CONCATENATE("WHS",C3)
+)
+
