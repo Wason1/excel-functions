@@ -1,0 +1,9 @@
+=IF(
+ISBLANK('INPUT DATA'!T5),
+"",
+IF(
+    'INPUT DATA'!T5 = "Medical Officer",
+    1,
+    0
+    )
+)

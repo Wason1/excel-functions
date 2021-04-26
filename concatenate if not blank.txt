@@ -1,5 +1,13 @@
 =IF(
-    ISBLANK(C16),
+    ISBLANK('INPUT DATA'!V5),
     "",
-    UPPER("WHS"&C16))
+   UPPER( 'INPUT DATA'!V5)
+)
+
+
+
+=IF(
+    ISBLANK('INPUT DATA'!V5),
+    "",
+   "SECURITY"
 )
